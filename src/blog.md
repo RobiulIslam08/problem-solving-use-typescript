@@ -12,8 +12,6 @@ A **union type** is a way of specifying that a variable can hold one of several 
 
 ```typescript
 type Age = number | string;
-
-### Example
 type Age = number | string;
 
 function handleAge(age: Age): string {
