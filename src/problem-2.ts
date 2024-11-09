@@ -4,4 +4,4 @@ const removeDuplicates = (array:number[]):number[] =>{
 	return [...new Set(array)]
 }
 console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5]))
-//ts-node-dev --respawn --transpile-only src/problem-6.ts
+//ts-node-dev --respawn --transpile-only src/problem-7.ts
